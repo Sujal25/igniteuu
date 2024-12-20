@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgniteU - Empowering Future Innovators</title>
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <header>
+        <img src="igniteu_logo.png" alt="IgniteU Logo">
+        <h1>IgniteU</h1>
+        <p>Empowering Future Innovators</p>
+    </header>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="faq.html">FAQs</a>
+        <a href="contact.html">Contact</a>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Welcome to IgniteU</h2>
+        <p>IgniteU focuses on empowering students from classes 6 to 9 by helping them develop essential skills for their future careers. We aim to inspire the next generation of innovators and leaders through hands-on learning and guidance.</p>
+
+        <h2>Our Vision</h2>
+        <p>At IgniteU, we believe every student has the potential to achieve greatness. Our mission is to unlock their potential by providing tailored skill development programs and career guidance.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 IgniteU | All Rights Reserved</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+    
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
